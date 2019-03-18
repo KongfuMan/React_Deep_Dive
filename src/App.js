@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import A from './components/A';
-import Button from './components/Button'
 
 class App extends Component {
   constructor(props){
@@ -16,13 +15,10 @@ class App extends Component {
   }
 
   render() {
-    let mytag = Symbol('mytag');
     return (
         <div>
             <A/>
-            <Button color={'red'} children={'button-text'}/>
-            <h1>This a h1 tag</h1>
-            <mytag/>
+            <h1>isParent:{this.state.isParent.toString()}</h1>
         </div>
     );
   }
