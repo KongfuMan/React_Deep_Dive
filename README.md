@@ -1,4 +1,5 @@
- Redux and Redux-Thunk 入门到精通
+ ## Redux and Redux-Thunk 入门到精通
+[Blogs](https://github.com/KongfuMan/React_Deep_Dive/issues)
 
 如果不用redux, 那么我们整个App的状态将会是一件非常痛苦的事情，尤其是当项目变得越来越庞大的时候。因为整个react的UI都是由state来驱动。redux的思想非常简单，那就是将所有component的state集中管理在一个JS object中，component只能通过dispatch action（只能是Object) 到 reducer中对state进行更新，注意不是修改，而是整个state都会刷新，之前的那个state是不能改变的（这样能够回到上一个状态？）
 
